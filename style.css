@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: dodgerblue;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  background-color: #fff;
+  padding: 20px 30px;
+  box-shadow: 2px 5px 0 #c03496;
+  border-radius: 8px;
+}
+.instruction {
+  margin-bottom: 15px;
+}
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+input {
+  padding: 8px 10px;
+  border: none;
+  border-bottom: 2px solid rgb(10, 156, 201);
+}
+input:focus {
+  outline: none;
+}
+#check-btn {
+  background-color: dodgerblue;
+  border: none;
+  padding: 8px 30px;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#check-btn:hover {
+  background: white;
+  outline: 1px solid dodgerblue;
+  color: dodgerblue;
+}
+.palindrome {
+  margin-top: 30px;
+  background-color: lightgreen;
+  max-width: 350px;
+  padding: 15px;
+  color: rgb(50, 3, 221);
+  border-radius: 5px;
+}
+#result {
+  margin-top: 10px;
+}
